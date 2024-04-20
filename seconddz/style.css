@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 84px;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #808080;
+    transition: width 1s;
+    color: white;
+}
+nav:hover{
+    width: 200px;
+}
+h4{
+    padding: 30px 18px;
+    font-weight: 700;
+    font-size: 22px;
+    user-select: none;
+}
+main{
+    padding: 10px 0 0 160px;
+    height: 100%;
+}
+h1 {
+    padding: 20px 0;
+}
+.nav-menu a{
+    display: block;
+    padding: 30px 55px;
+    padding-left: 85px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    user-select: none;
+}
+.nav-menu a:hover{
+    background-color: #5e5e5e;
+}
+.edit {
+    background-image: url('./img/edit.png');
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: 15px;
+}
+.favorites{
+    background-image: url('./img/favorites.png');
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: 15px;
+}
+.history{
+    background-image: url('./img/history.png');
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: 15px;
+}
+.security{
+    background-image: url('./img/security.png');
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: 15px;
+}
+.settings{
+    background-image: url('./img/settings.png');
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: 15px;
+}
