@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    margin-top: 100px;
+}
+.text{
+    width: 800px;
+    margin: auto;
+}
+.text2{
+    width: 800px;
+    margin: auto;
+}
+.imgs{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 500px;
+    top: 20px;
+}
+.img1{
+    background-image: url(./Felis_catus-cat_on_snow.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+}
+.img2{
+    background-image: url(./0-ysgyoecoxy-cat-tongue-macro.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+}
+.imgtext1{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color:rgb(67, 104, 160);
+    color: white;
+    padding: 10px 15px;
+    text-align: end;
+    border-radius: 0 0 10px 10px;
+}
+.imgtext2{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color:rgb(67, 104, 160);
+    color: white;
+    padding: 5px 15px;
+    text-align: end;
+    border-radius: 0 0 10px 10px;
+}
+@media screen and (width<800px) 
+{
+    body{
+        position: static;
+    }
+    .samtext{
+        font-size: 2vw;
+    }
+    .text,.text2{
+        margin: auto;
+    }
+    .imgs{
+        position: static;
+        flex-direction: row;
+        gap: 15px;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (width<600px) 
+{
+    body{
+        position: static;
+    }
+    .imgs{
+        position: static;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+        justify-content: center;
+        margin-left: 80px;
+    }
+    .img1,.img2{
+        width: 500px;
+        height: 400px;
+    }
+    
+}
