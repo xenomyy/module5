@@ -1,0 +1,107 @@
+body {
+    padding: 0 25px;
+}
+h3 {
+    font-size: 23px;
+    margin-top: 33px;
+    margin-bottom: 10px;
+}
+label {
+    font-size: 20px;
+}
+input[type="text"]{
+    height: 50px;
+    width: 200px;
+    background-size: 25px;
+    border-radius: 6px;
+    padding: 0 25px;
+}
+.valid{
+    border: 2px solid #42ae4a;
+    padding-right: 10px;
+}
+.invalid{
+    border: 2px solid #e74c6c;
+    padding-right: 10px;
+}
+.subscribe{
+    appearance: none;
+    height: 26px;
+    width: 48px;
+    border: 2px solid #e44160;
+    border-radius: 6px;
+}
+.subscribe::before {
+    content: '';
+    display: block;
+    height: 20px;
+    width: 24px;
+    margin: 1px 18px;
+    background-color: #e44160;
+    border-radius: 6px;
+}
+.subscribe:hover{
+    border: 2px solid #42ad4a;
+}
+.subscribe:checked {
+    padding: 1px 2px;
+    border: 2px solid #42ad4a;
+    border-radius: 6px;
+}
+.subscribe:checked::before {
+    margin: 0;
+    background-color: #42ad4a;
+}
+.subscribe:checked:hover {
+    border: 2px solid #e44160;
+    border-radius: 6px;
+}
+.hover1:hover{
+    background-color: #2c7731;
+}
+.hover2{
+    background-color:#e44160;
+}
+.hover2:hover{
+    background-color: brown;
+}
+.radio{
+    appearance: none;
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    border: 3px solid #42ad4a;
+    border-radius: 50%;;
+}
+.radio:checked {
+    background-color: #42ad4a;
+}
+button{
+    height: 50px;
+    width: 110px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #42ad4a;
+    color: white;
+    font-size: medium;
+}
+button:hover {
+    background-color: #2c7731;
+}
+.danger {
+    background-color: #e44160
+}
+.danger:hover {
+    background-color: brown
+}
+.disabled:disabled {
+    background-color: grey;
+}
+button.circle {
+    width: 50px;
+    border-radius: 50%;
+}
+textarea {
+    height: 160px;     
+    width: 650px;    
+}
